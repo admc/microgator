@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://microgator/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://microgator/locale/overlay.dtd">
+<overlay id="mg-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="chrome://microgator/content/overlay.js"/>
+  
+  <keyset>
+    <key id="open-mg" modifiers="accel shift" key="y" oncommand="MG.go(event);"/>
+  </keyset>
+  
+  <menupopup id="menu_ToolsPopup">
+    <menuitem key="open-mg" id="mg-mg" label="&microgator;" 
+              oncommand="MG.go(event);"/>
+  </menupopup>
+</overlay>

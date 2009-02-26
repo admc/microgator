@@ -1,0 +1,15 @@
+#twitter_update_list  {
+    width:100%;
+    height:100%;
+    border-top: 1px solid #E0E3D9;
+    color:darkgreen;
+    padding:12px;   
+}
+
+#twitter_update_list li{
+  padding:5px;
+}
+
+#twitter_update_list a:hover{
+    text-decoration:underline;
+}
